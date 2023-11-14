@@ -26,5 +26,5 @@ is running at `localhost:8888`). All GWT features are supported.
    library available to the Spring Boot application. For example, put your entities inside the shared folder for use by the
    client and server. The Spring Boot application is configured to scan classes annotated with `@Entity` in the shared jar. 
 
-## Examples
-Coming...
+## IntelliJ plugin
+Coming later...
