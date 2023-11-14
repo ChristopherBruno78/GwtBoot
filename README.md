@@ -7,8 +7,8 @@ GWT is a Java client framework and Sprint Boot is a popular convention-over-conf
 With GWT write your client side code in Java instead of JavaScript or TypeScript. The benefit is:
 
 1. Strong typing and abstractions. 
-2. GWT can optimize JS and client side resources (code pruning, renaming long method names, location/browser/device permuations,
-   base64 images, css bundling). These features are integrated into GWT and do not rely on a wide array of <i>sometimes</i> maintained packages or pluings.
+2. GWT can optimize JS and client side resources (code pruning, renaming long method names, location/browser/device permutations,
+   base64 images, css bundling). These features are integrated into GWT and do not rely on a wide array of <i>sometimes</i> maintained packages or plugins.
 3. Code re-use. Java source inside the GWTClient's shared folder can be used on the server.
 
 ## Quick Start
