@@ -1,0 +1,14 @@
+<module rename-to="gwt">
+
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name="org.dominokit.rest.Rest"/>
+
+    <!-- add other GWT libraries here -->
+
+    <source path="client"/>
+    <source path="shared"/>
+
+    <entry-point class="com.example.client.Main"/>
+
+
+</module>
