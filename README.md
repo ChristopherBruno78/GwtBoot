@@ -22,8 +22,8 @@ is running at `localhost:8888`). All GWT features are supported.
   
 4. As you make changes to your client side code, the GWT codeserver will incrementally re-compile your changes.
 5. Instead of GWT RPC, [Domino-rest](https://github.com/DominoKit/domino-rest) is used for server communication to standard Spring Boot REST controllers
-6. To resuse code inside the GWTClient's shared folder, run `mvn install` inside the GWTClient. This will maked the shared
-   library available to the Spring Boot application. For example, put your Entitites inside the shared folder for use by the
+6. To resuse code inside the GWTClient's shared folder, run `mvn install` inside the GWTClient. Then the shared
+   library is available to the Spring Boot application. For example, put your Entities inside the shared folder for use by the
    client and server. The project configured the Spring Boot application to scan for the entities in the shared jar. 
 
 ## Examples
