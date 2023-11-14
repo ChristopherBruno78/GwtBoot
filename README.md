@@ -16,7 +16,7 @@ With GWT write your client side code in Java instead of JavaScript or TypeScript
 1. The project inside the GwtClient folder is a standard GWT Project. Run this project in SuperDev Mode (by default, the codeserver
 is running at `localhost:8888`). All GWT features are supported.
 2. In the Server folder is a standard Spring Boot application with some configurations (JPA with H2 database, Thyme for templating). 
-  Run the Spring Boot application as normal (usually at` `localhost:8080`).
+  Run the Spring Boot application as normal (usually at `localhost:8080`).
   The GWT host page is served by the Spring Boot server and gets the JavaScript generated from the SuperDev Mode codeserver.
   Open a browser to `localhost:8080`.
   
