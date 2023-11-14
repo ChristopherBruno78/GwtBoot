@@ -6,10 +6,10 @@ A Maven template project to use GWT on the client and Spring Boot on the server.
 GWT is a Java client framework and Sprint Boot is a popular convention-over-configuration web framework for Java.
 With GWT write your client side code in Java instead of JavaScript or TypeScript. The benefit is:
 
-1. Strong typing and abstractions which is useful for refactoring, documentation and code pruning.
+1. Strong typing and abstractions. 
 2. GWT can optimize JS and client side resources (code pruning, renaming long method names, location/browser/device permuations,
-3.  base64 images, css bundling). These features are integrated into GWT and do not rely on a wide array of <i>sometimes</i> maintained packages or pluings.
-4. Code re-use. Java source inside the GWTClient's shared folder can be used on the server.
+   base64 images, css bundling). These features are integrated into GWT and do not rely on a wide array of <i>sometimes</i> maintained packages or pluings.
+3. Code re-use. Java source inside the GWTClient's shared folder can be used on the server.
 
 ## Quick Start
 
