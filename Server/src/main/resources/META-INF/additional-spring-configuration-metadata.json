@@ -1,0 +1,8 @@
+{
+  "properties": [
+    {
+      "name": "gwt.codeserver",
+      "type": "java.lang.String",
+      "description": "Description for gwt.codeserver."
+  }
+] }
